@@ -1,4 +1,3 @@
-<!-- 富文本组件 -->
 <template>
   <div>
     <Toolbar :editor="editorRef" :defaultConfig="toolbarConfig" :mode="mode"
