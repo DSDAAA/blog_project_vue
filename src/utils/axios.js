@@ -1,13 +1,13 @@
 import axios from "axios";
 // 使用element-plus ElMessage做消息提醒
-import { ElMessage } from 'element-plus'
+import {ElMessage} from 'element-plus'
 
 import cookie from 'js-cookie'
 
 //1. 创建新的axios实例，
 const service = axios.create({
     // 公共接口 开发环境还是线上环境也可以用api
-    baseURL:"http://localhost:8001",
+    baseURL: "http://localhost:8001",
     // 超时时间 单位是ms，这里设置了5s的超时时间
     timeout: 50000,
 });
